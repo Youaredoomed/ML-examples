@@ -12,7 +12,7 @@ np.random.seed(3)
 # 1. 데이터셋 준비하기
 
 # 훈련셋과 시험셋 로딩
-(X_train, Y_train), (X_test, Y_test) = mnist.load_data()
+(X_train, Y_train), (X_test, Y_test) = mnist.load_data() # ( (60000,28,28), (60000,0) ) , ( (10000,28,28), (10000,0) )  
 
 # 훈련셋과 검증셋 분리
 X_val = X_train[50000:]
