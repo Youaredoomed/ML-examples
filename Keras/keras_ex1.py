@@ -67,7 +67,8 @@ acc_ax = loss_ax.twinx()
 loss_ax.plot(hist.history['loss'], 'y', label='train loss')
 loss_ax.plot(hist.history['val_loss'], 'r', label='val loss')
 
-acc_ax.plot(hist.history['acc'], 'b', label='train acc') ## accuracy로 이름 바뀜
+## 버전에 따라 accuracy일 수 있습니다.
+acc_ax.plot(hist.history['acc'], 'b', label='train acc') 
 acc_ax.plot(hist.history['val_acc'], 'g', label='val acc')
 
 loss_ax.set_xlabel('epoch')
