@@ -2,113 +2,31 @@
 머신러닝, 딥러닝 관련 예제코드
 
 
-버전 정보:
-_tflow_select             2.2.0                     eigen
-absl-py                   0.4.1                    py35_0
-astor                     0.7.1                    py35_0
-blas                      1.0                         mkl
-bleach                    3.1.5                      py_0
-ca-certificates           2020.7.22                     0
-certifi                   2018.8.24                py35_1
-colorama                  0.4.3                      py_0
-cycler                    0.10.0           py35hcc71164_0
-decorator                 4.4.2                      py_0
-defusedxml                0.6.0                      py_0
-entrypoints               0.2.3                    py35_2
-freetype                  2.10.2               hd328e21_0
-gast                      0.4.0                      py_0
-grpcio                    1.12.1           py35h1a1b453_0
-h5py                      2.8.0            py35h3bdd7fb_2
-hdf5                      1.10.2               hac2f561_1
-icc_rt                    2019.0.0             h0cc432a_1
-icu                       58.2                 ha925a31_3
-intel-openmp              2020.2                      254
-ipykernel                 4.10.0                   py35_0
-ipython                   5.8.0                    py35_0
-ipython_genutils          0.2.0            py35ha709e79_0
-ipywidgets                7.4.1                    py35_0
-jinja2                    2.11.2                     py_0
-jpeg                      9b                   hb83a4c4_2
-jsonschema                2.6.0            py35h27d56d3_0
-jupyter                   1.0.0                    py35_7
-jupyter_client            5.3.3                      py_0
-jupyter_console           5.2.0                    py35_1
-jupyter_core              4.5.0                      py_0
-keras                     2.2.2                         0
-keras-applications        1.0.4                    py35_1
-keras-base                2.2.2                    py35_0
-keras-preprocessing       1.0.2                    py35_1
-kiwisolver                1.0.1            py35h6538335_0
-libpng                    1.6.37               h2a8f88b_0
-libprotobuf               3.6.0                h1a1b453_0
-libsodium                 1.0.16               h9d3ae62_0
-m2w64-gcc-libgfortran     5.3.0                         6
-m2w64-gcc-libs            5.3.0                         7
-m2w64-gcc-libs-core       5.3.0                         7
-m2w64-gmp                 6.1.0                         2
-m2w64-libwinpthread-git   5.0.0.4634.697f757               2
-markdown                  2.6.11                   py35_0
-markupsafe                1.0              py35hfa6e2cd_1
-matplotlib                3.0.0            py35hd159220_0
-mistune                   0.8.3            py35hfa6e2cd_1
-mkl                       2018.0.3                      1
-mkl_fft                   1.0.6            py35hdbbee80_0
-mkl_random                1.0.1            py35h77b88f5_1
-msys2-conda-epoch         20160418                      1
-nbconvert                 5.5.0                      py_0
-nbformat                  5.0.7                      py_0
-notebook                  5.6.0                    py35_0
-numpy                     1.15.2           py35ha559c80_0
-numpy-base                1.15.2           py35h8128ebf_0
-openssl                   1.1.1g               he774522_1
-packaging                 20.4                       py_0
-pandas                    0.23.4           py35h830ac7b_0
-pandoc                    2.10.1                        0
-pandocfilters             1.4.2                    py35_1
-pickleshare               0.7.4            py35h2f9f535_0
-pip                       10.0.1                   py35_0
-prometheus_client         0.8.0                      py_0
-prompt_toolkit            1.0.15           py35h89c7cb4_0
-protobuf                  3.6.0            py35he025d50_0
-pygments                  2.6.1                      py_0
-pyparsing                 2.4.7                      py_0
-pyqt                      5.9.2            py35h6538335_2
-python                    3.5.5                h0c2934d_2
-python-dateutil           2.8.1                      py_0
-pytz                      2020.1                     py_0
-pywinpty                  0.5.4                    py35_0
-pyyaml                    3.13             py35hfa6e2cd_0
-pyzmq                     17.1.2           py35hfa6e2cd_0
-qt                        5.9.7            vc14h73c81de_0
-qtconsole                 4.7.6                      py_0
-qtpy                      1.9.0                      py_0
-scipy                     1.1.0            py35h4f6bf74_1
-send2trash                1.5.0                    py35_0
-setuptools                40.2.0                   py35_0
-simplegeneric             0.8.1                    py35_2
-sip                       4.19.8           py35h6538335_0
-six                       1.15.0                     py_0
-sqlite                    3.33.0               h2a8f88b_0
-tbb                       2020.2               h74a9793_0
-tbb4py                    2018.0.5         py35he980bc4_0
-tensorboard               1.10.0           py35he025d50_0
-tensorflow                1.10.0          eigen_py35h38c8211_0
-tensorflow-base           1.10.0          eigen_py35h45df0d8_0
-termcolor                 1.1.0                    py35_1
-terminado                 0.8.1                    py35_1
-testpath                  0.4.4                      py_0
-tornado                   5.1.1            py35hfa6e2cd_0
-traitlets                 4.3.2            py35h09b975b_0
-vc                        14.1                 h0510ff6_4
-vs2015_runtime            14.16.27012          hf0eaf9b_3
-wcwidth                   0.2.5                      py_0
-webencodings              0.5.1                    py35_1
-werkzeug                  1.0.1                      py_0
-wheel                     0.35.1                     py_0
-widgetsnbextension        3.4.1                    py35_0
-win_unicode_console       0.5              py35h56988b5_0
-wincertstore              0.2              py35hfebbdb8_0
-winpty                    0.4.3                         4
-yaml                      0.1.7                hc54c509_2
-zeromq                    4.2.5                he025d50_1
-zlib                      1.2.11               h62dcd97_4
+버전 정보:            
+*h5py                      2.8.0           
+*hdf5                      1.10.2                     
+*ipykernel                 4.10.0                 
+*ipython                   5.8.0                   
+*ipython_genutils          0.2.0            
+*ipywidgets                7.4.1       
+*jupyter                   1.0.0                 
+*jupyter_client            5.3.3                  
+*jupyter_console           5.2.0                   
+*jupyter_core              4.5.0                   
+*keras                     2.2.2                      
+*keras-applications        1.0.4                   
+*keras-base                2.2.2                    
+*keras-preprocessing       1.0.2                             
+*matplotlib                3.0.0                         
+*notebook                  5.6.0                    
+*numpy                     1.15.2           
+*numpy-base                1.15.2           
+*pandas                    0.23.4           
+*pip                       10.0.1                   
+*python                    3.5.5                
+*scipy                     1.1.0           
+*sqlite                    3.33.0              
+*tensorboard               1.10.0        
+*tensorflow                1.10.0        
+*tensorflow-base           1.10.0         
+*yaml                      0.1.7                
