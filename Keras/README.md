@@ -6,6 +6,7 @@
 -> 사용자 정의
 3. keras_ex3.py
 -> CNN
-
+4. keras_ex4.py
+-> CNN, 데이터 증강
 
 [김태영의 케라스 블로그](https://tykimos.github.io/index.html)
