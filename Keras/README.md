@@ -22,9 +22,17 @@
 -> CNN, 영상입력 이진분류 모델
 10. keras_ex10.py
 -> CNN, 영상입력 다중클래스 분류 모델
+11. keras_ex11.py
+-> RNN
+12. keras_ex12.py
+-> RNN, 상태유지 스택 순환신경망 모델 , 시계열 수치입력 수치예측 모델
+13. keras_ex13.py
+-> RNN, 순환 컨볼루션 신경망 모델, 문장(시계열수치)입력 이진분류 모델
+14. keras_ex14.py
+-> RNN, 순환 컨볼루션 신경망 모델, 문장(시계열수치)입력 다중클래스 분류 모델
 
 ---
 
 
 ### 원본출처
-ex1~10 : [김태영의 케라스 블로그](https://tykimos.github.io/index.html)
+ex1~14 : [김태영의 케라스 블로그](https://tykimos.github.io/index.html)
