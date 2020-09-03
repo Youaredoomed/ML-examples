@@ -1,5 +1,6 @@
 # ML-examples
 
+---
 1. keras_ex01.py
 -> mnist 데이터 학습, tensorboard, 가중치 저장, 학습 조기종료, matplotlib 그래프, 모델 이미지로 저장  
 &#43; 저장한 가중치로 예측하기 (ex01_2)
@@ -22,4 +23,8 @@
 10. keras_ex10.py
 -> CNN, 영상입력 다중클래스 분류 모델
 
-[김태영의 케라스 블로그](https://tykimos.github.io/index.html)
+---
+
+
+### 원본출처
+ex1~10 : [김태영의 케라스 블로그](https://tykimos.github.io/index.html)
